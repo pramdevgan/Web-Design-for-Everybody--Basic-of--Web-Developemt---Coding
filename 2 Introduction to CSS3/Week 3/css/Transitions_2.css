@@ -1,0 +1,89 @@
+html{
+    scroll-behavior: auto;
+}
+
+#first {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s;
+    color: white;
+    text-align: center;
+}
+
+#first:hover   {
+    width: 300px;
+    background-color: green;
+}
+
+#second {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s, height 4s;
+    color: white;
+    text-align: center;
+}
+
+#second:hover   {
+    width: 300px;
+    height : 300px;
+    background-color: green;
+}
+
+
+#third {
+    background: #2db34a;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 95px;
+    line-height: 95px;
+    text-align: center;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    width:95px;
+}
+
+#third:hover {
+    background: #FF7B29;
+}
+
+#fourth {
+    background: #2db34a;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 95px;
+    width: 95px;
+    line-height: 95px;
+    text-align: center;
+    transition-property: background border-radius;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+#fourth:hover {
+    background: #FF7B29;
+    border-radius: 50%;
+}
+
+button {
+    border: 0;
+    background: #0087CC;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    margin: 0;
+    outline: none;
+    padding: 12px 20px;
+    transition: all .1s linear;
+}
+
+button:active   {
+    box-shadow: 0 2px 0 #006599;
+    transform: translate(3px);
+}
+
+button:hover {
+    padding: 14px 22px;
+}

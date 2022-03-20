@@ -1,0 +1,33 @@
+li{
+    margin: 5px;
+}
+
+a{
+    padding-left: 22px;
+    text-decoration: none;
+}
+/* 
+Operators can be used to find those attribute values you are looking for
+^  : match the beginning exactly
+a [href^=‘http://umich’]
+
+$ : match the end exactly
+img[src$ = ‘.png’]  apply to .png images
+
+* : wildcard
+a [href*=‘umich’]
+
+*/
+a[href$=".org"]{
+    background-color: #fff00f;
+}
+
+
+a[href$=".gov"]{
+    background-color: #03fcf4;
+}
+
+a[href$=".edu"]{
+    background-color: #00ff00;
+}
+

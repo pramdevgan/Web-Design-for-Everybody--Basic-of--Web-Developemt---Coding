@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events-Modify The DOM</title>
+    <link rel="stylesheet" href="css/JS_Events_Modify_The_DOM.css">
+</head>
+<body>
+    <h1>Modifyy the DOM</h1>
+
+    <button onClick="document.getElementById('stuff').innerHTML = 'clicked First Button';">
+        First
+    </button>
+    <button onClick="document.getElementById('stuff').innerHTML = 'clicked Another Button';">
+        Third
+    </button>
+
+    <p>This code shouldn't change.</p>
+    <p id="stuff">This will Change.</p>
+    <p>This code shouldn't change.</p>
+</body>
+</html>

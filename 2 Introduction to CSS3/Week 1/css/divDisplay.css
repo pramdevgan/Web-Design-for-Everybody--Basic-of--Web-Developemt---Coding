@@ -1,0 +1,25 @@
+span{
+    height: 50px;
+    width: 75px;
+    background: #00ff00;
+    overflow: visible;
+    /* display:table; */
+}
+
+div{
+    height: 100px;
+    width:45%;
+    background: #00ffff;
+    /* display: inline-block; */
+    overflow: hidden;
+}
+
+
+p{
+    background: #ff00ff;
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+    display:table;
+
+}

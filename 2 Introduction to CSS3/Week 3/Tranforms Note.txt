@@ -1,0 +1,40 @@
+                                    2D Transform Options
+
+. Options
+    . translate
+    . rotate
+    . scale
+    . skew
+    . matrix
+
+
+- translate
+    . Transform:translate(x,y);
+        . move x pixels to the left/right and y pixels to the top/bottom
+    transfrom:transfrom(100,75);
+
+- rotate
+    .transfrom:rotate(deg);
+        . Rotate/ "spin" the element a certain number of degrees
+    transfrom:rotate(30deg);
+
+- scale
+    . transfrom:scale(width,height);
+        . Change the width and height of the element
+    transfrom:scale(2,3);
+
+- skew
+    .transfrom:skew(x-angle,y-angle);
+        . Rotate the element a certain number of degrees along the x and y axis
+    transfrom:skew(30deg, 15deg);
+
+- matrix
+    . matrix() - combine all of the 2D transfrom methods into one
+ 
+
+                                    3D rotate
+. You can rotate along the x, y, or z dimension along a given degree
+. transfrom:rotateY(deg);
+. transfrom:rotateX(deg);
+. transfrom:rotateZ(deg);
+. transfrom:rotate3D(x,y,z);

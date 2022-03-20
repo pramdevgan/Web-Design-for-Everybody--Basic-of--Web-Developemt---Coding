@@ -1,0 +1,28 @@
+header{
+    background-color:#666666;
+
+}
+
+h1,h2{
+    color: #c5d3d6;
+    font-variant: small-caps;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    background: #8a5b5b;
+    color:#00ffff;
+}
+
+a{
+    color: #74EF34;
+    background-color: #9b6b23;
+    text-align:center;
+}
+
+img{
+    display:none;
+}

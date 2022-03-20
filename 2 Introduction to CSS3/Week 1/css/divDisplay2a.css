@@ -1,0 +1,9 @@
+div{
+    width: 30%;
+    background: #00ffff;
+    height: 250px;
+
+    display: inline-block;
+    float: left;
+    overflow:scroll;
+}

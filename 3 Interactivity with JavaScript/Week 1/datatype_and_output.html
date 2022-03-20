@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data type and Output</title>
+</head>
+<body>
+    <p>
+        This is an example of Data type and output
+    </p>
+    <p>
+        this is the another paragraph
+    </p>
+    <script>
+    var name = prompt("What is your name?");
+    document.write("<h1>" + name + "</h1>");
+    var dob = prompt("What is your Date of Birth?");
+    document.write(dob + "<br/>");
+    document.write(document.baseURI + "<br/>");
+    document.write(document.title + "<br/>");
+    var date = Date();
+    document.write(date + "<br/>");
+    var para = document.getElementsByTagName('p');
+    document.write(para + "<br/>");
+    document.write(para.length + "<br/>");
+    </script>
+</body>
+</html>

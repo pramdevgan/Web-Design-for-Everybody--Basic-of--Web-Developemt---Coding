@@ -1,0 +1,52 @@
+                        Transitions
+
+When elements transition from one state to another,
+you can alter their appearance.
+    . if you hover over the link, change the color of the link
+    . If an image comes into focus, change the size if the image
+
+
+The Properties
+    1 transition-property
+        . what is it you want to chnage ? (size,  color, position, etc.)
+    2 transition-duration
+        . How long should each transition last?
+    3 transition-timing
+        . Should it be a smooth transition (linear)? or Different?
+    4. transition-delay
+        . How long should the wait be before the transition begains?
+
+
+Setting up
+1. Define your elements
+2. Choose the elements for transition
+3. Define the new values
+    - Your must combine this step with a pesudo-class
+
+                    Step:
+div {
+    color: #000000;
+    background: #2db34a;
+    text-height: 200px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 6px;
+    transition-property: color, width, background, background-radius;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+    transition-delay: .5s;
+}
+
+div:hover   {
+    color: #FFFFFF;
+    width: 350px;
+    background: #2D31B3;
+    border-radius:50%;
+}
+
+
+
+Using Shorthands
+. If you have multiple property transitioning, you can use shorthand:
+    transition: background .2s linear, border-radius 1s ease-in 1s;

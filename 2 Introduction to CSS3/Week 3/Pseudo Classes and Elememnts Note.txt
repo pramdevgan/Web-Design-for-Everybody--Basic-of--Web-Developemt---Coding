@@ -1,0 +1,34 @@
+            Type of Pesudo Classes
+
+---> Link
+    . :link, :visited
+
+---> User Action
+    . :hover, :active, :focus
+        e.g. : 
+                p:hover{
+                    border: 1px;
+                }
+
+---> Forms (Interfaces)
+    . :enabled, :checked, :disabled
+
+* Structural/Positional
+    . :first-child, :last-child, :nth-child(), :only-child
+    . :first-of-type, :last-of-type, :only-of-type
+
+    e.g.
+        li:first-child{ }
+        li:nth-child(4){   }
+        p:empty{ }
+        img:only-of-type{   }
+        p:last-of-type{     }
+
+* Textual
+    . :first-letter, :first-line
+
+* Positional/Generated
+    . :before, :after
+
+* Fragments
+    . ::selection
